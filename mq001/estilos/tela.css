@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*Estilo para telas - styles for canvas*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: lightgray;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: gray;
+}
+
+menu li {
+    display: inline-block;
+    background-color: darkslategray;
+    padding: 20px;
+    margin: 0 5px;
+    color: white;
+}
+
+article {
+    width: 660px;
+    display: block;
+    margin: auto;
+}
